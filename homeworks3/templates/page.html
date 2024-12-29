@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope & Closures</title>
+    <script src="/app.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 230px;
+            height: 350px;
+            border: 1px solid #ddd;
+            background-color: white;
+            text-align: center;
+        }
+        .top-section {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+        }
+        .top-section h1 {
+            font-size: 12px;
+            margin: 5px 0;
+            color: #000;
+        }
+        .top-section h2 {
+            font-size:11px;
+            margin: 5px 0;
+            color: #000;
+        }
+        .top-section p {
+            left: 20%;
+            font-size: 8px;
+            margin: 5px;
+            color: #555;
+        }
+        .middle-section {
+            padding: 15px 5px;
+        }
+        .middle-section h2 {
+            font-size: 16px;
+            margin: 0;
+            font-weight: bold;
+            color: #000;
+        }
+        .middle-section h2 span {
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .bottom-section {
+            background-color: #ffdf00;
+            padding: 25px 5px;
+            height: 140px;
+            margin-top: 24px;
+            position: relative;
+        }
+        .bottom-section h3 {
+            font-size: 155px;
+            margin: 0;
+            font-weight: bold;
+            color: #000;
+            line-height: 1.2;
+            position: relative;
+            padding-left: 35px;
+        }
+        .bottom-section .vertical-text {
+            position: absolute;
+            top: 47%;
+            left: 45%;
+            transform: translate(-50%, -50%) rotate(-90deg);
+            font-size: 11px;
+            font-weight: bold;
+            color: #d2c881;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+        .books {
+            font-family: inherit;
+            color: rgb(29, 29, 177);
+            max-width: 50%;
+            background-color: hsl(225, 72%, 83%);
+            margin: 0 auto;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+ 
